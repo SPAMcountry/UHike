@@ -42,7 +42,7 @@ Search up location that will repsond back with hiking locations are the vicinity
 
 ## What will your MVP functionality be?
 
-Using APIs to gather data regarding search querired locations as well as images. 
+Using APIs to gather data regarding search querired locations as well as images.
 
 ## What are your stretch goals?
 
@@ -64,13 +64,10 @@ We plan to at least implement a rating system for this application
 * Recieving weather for a five day forecast
 * maps are displayed
 * Use Instagram data to bring in photos of the location
-* Search query will provide with all the locations, weather, and images 
+* Search query will provide with all the locations, weather, and images
 
-
-Non-Functional Requirements (301 & 401 only)
-Non-functional requirements are requirements that are not directly related to the functionality of the application but still important to the app.
+### Non-Functional Requirements (301 & 401 only)
 
 Security - Auth0 will be implemented for logging in, and new users will be able to create an account.
 
 Usability - UI/UX will be highly accounted for, for a pleasnt look and feel to the application. ie. smooth transitioning between pages, as well as readable sized font
-

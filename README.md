@@ -35,4 +35,11 @@ our group app that follows a user into their own hiking experience.
     feature tasks - GPS navigation
     acceptance test - The map will display and show deirections to get to the spot.
 
+Does a single item in your database “belong to” just one other item in your database? For example, a person has one passport, and a passport belongs to a single person.
+Does a item in your database “belong to” multiple other items in your database? For example, a house has many residents, and each resident has one primary house.
+Do many items in your database relate to many other items in your database? For example, a band has many musicians, and a musician can be in many bands.
+Also, include for each seperate collection:
 
+The name of each property stored in the collection.
+The required data type.
+An indication if this collection is associated with another collection.
