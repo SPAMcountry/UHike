@@ -1,57 +1,76 @@
 # Software Requirements
+
 ## Vision
+
 ### Minimum Length: 3-5 sentences
+
 ### What is the vision of this product?
-We want to create an app to show hiking locations with directions and pictures of that area.
+
+We wanted to created an app for the modern hiker.  Everything a person needs to find new and exciting hike's, directions to the new location and even a five day forcast!  share your exciting hiking experience!
 
 ### What pain point does this project solve?
-* Users will be able to find new hiking location that they might of not been aware of.
-* Users will be able to go to hiking locations with navigation.
-* 
+
+In a world where Video Games and COVID-19 have run rampant, this App is a refreshing change of pace from the average American glued to their screen.  Get motivated to Explore!
 
 ### Why should we care about your product?
 
-Scope (In/Out)
-IN - What will your product do
-* discover locations of hiking spots and showcase images of the location. 
+Our product takes technology and draws people back to nature.  Incentivizing people to share their experiences and enjoy the outdoors
 
-Describe the individual features that your product will do.
-High overview of each. Only need to list 4-5
-Example:
-The web app will provide information to the users about all the different Cat Cafe’s in the area
-The web app will provide both walking and driving directions to each of the destinations
-Users will be able to “Star” their favorite shops.
-Each shop will contain reviews of the customer’s experiences
-OUT - What will your product not do.
-These should be features that you will make very clear from the beginning that you will not do during development. These should be limited and very few. Pick your battles wisely. This should only be 1 or 2 things. Example: My website will never turn into an IOS or Android app.
-Minimum Viable Product vs
-What will your MVP functionality be?
+# Scope (In/Out)
 
-What are your stretch goals?
+## IN - What will your product do
 
-Stretch
-What stretch goals are you going to aim for?
+* discover locations of hiking spots and showcase images of the location.
 
-Functional Requirements
-List the functionality of your product. This will consist of tasks such as the following:
+## Describe the individual features that your product will do
 
-An admin can create and delete user accounts
-A user can update their profile information
-A user can search all of the products in the inventory
-Data Flow
-Describe the flow of data in your application. Write out what happens from the time the user begins using the app to the time the user is done with the app. Think about the “Happy Path” of the application. Describe through visuals and text what requests are made, and what data is processed, in addition to any other details about how the user moves through the site.
+## High overview of each. Only need to list 4-5
+
+* Users will be able to see pictures of hiking location
+* Users will  be able to navigate to hiking locations
+* Users will be able to search for locations
+* Users will be able to see the five day forecast of their location
+
+## OUT - What will your product not do
+
+* This application will not let users comment
+* This application will serve as a primary GPS navigation service
+
+# Minimum Viable Product vs
+
+Search up location that will repsond back with hiking locations are the vicinity of the search, and display images of the hiking spots.
+
+## What will your MVP functionality be?
+
+Using APIs to gather data regarding search querired locations as well as images. 
+
+## What are your stretch goals?
+
+1. Let user chat with other users
+2. rating system
+3. difficulty levels
+4. Form to post comments regarding location
+
+## Stretch
+
+### What stretch goals are you going to aim for?
+
+We plan to at least implement a rating system for this application
+
+## Functional Requirements
+
+#APIs#
+
+* Recieving weather for a five day forecast
+* maps are displayed
+* Use Instagram data to bring in photos of the location
+* Search query will provide with all the locations, weather, and images 
+
 
 Non-Functional Requirements (301 & 401 only)
 Non-functional requirements are requirements that are not directly related to the functionality of the application but still important to the app.
 
-Examples include:
+Security - Auth0 will be implemented for logging in, and new users will be able to create an account.
 
-Security
-Usability
-Testability
-etc….
-Pick 2 non-functional requirements and describe their functionality in your application.
+Usability - UI/UX will be highly accounted for, for a pleasnt look and feel to the application. ie. smooth transitioning between pages, as well as readable sized font
 
-If you are stuck on what non-functional requirements are, do a quick online search and do some research. Write a minimum of 3-5 sentences to describe how the non-functional requirements fits into your app.
-
-You MUST describe what the non-functional requirement is and how it will be implemented. Simply saying “Our project will be testable for testibility” is NOT acceptable. Tell us how, why, and what.
